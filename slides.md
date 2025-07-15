@@ -95,7 +95,7 @@ Syncing your state to that of an external one, e.g.
 
 - The result of a async operation (e.g. fetching data from somewhere)
 - A third party library (e.g. sending an analytics event)
-- Manual DOM mutation (e.g. updating the window title, updating a part of the UI that isn't managed by vu)
+- Manual DOM mutation (e.g. updating the window title)
 
 Summed up, side effects are anything **that is not a pure function of the state**.  
 
